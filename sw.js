@@ -1,6 +1,6 @@
 /* ميزانيتي — يحفظ ملفات الأداة على الجهاز لتعمل دون إنترنت.
    عند تعديل أي ملف: غيّر رقم الإصدار هنا ليحصل الجهاز على النسخة الجديدة. */
-const CACHE = 'mizaniyati-v1.0';
+const CACHE = 'mizaniyati-v1.1';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
